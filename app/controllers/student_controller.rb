@@ -1,8 +1,6 @@
 class StudentController < ApplicationController
 
   def index
-    Student.all.each do |student|
-      @students << "#{student.first_name} #{student.last_name}"
-    end
+    @students = Student.all
   end
 end
