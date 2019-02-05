@@ -1,6 +1,6 @@
 class StudentController < ApplicationController
 
-  def index 
+  def students
 
   end 
 end
