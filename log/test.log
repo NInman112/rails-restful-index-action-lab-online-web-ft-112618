@@ -1254,3 +1254,4 @@ Completed 200 OK in 9044ms (Views: 9042.1ms | ActiveRecord: 0.0ms)
 Started GET "/students" for 127.0.0.1 at 2019-02-05 01:04:08 +0000
 Processing by StudentController#index as HTML
   Rendering student/index.html.erb within layouts/application
+  Rendered student/index.html.erb within layouts/application (5197.1ms)
