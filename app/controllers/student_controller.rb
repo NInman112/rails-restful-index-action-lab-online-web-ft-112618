@@ -1,6 +1,6 @@
 class StudentController < ApplicationController
 
   def students
-
-  end 
+    self.first_name + " - " + self.last_name
+  end
 end
