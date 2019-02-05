@@ -2,7 +2,7 @@ class StudentController < ApplicationController
 
   def students
     Student.all.each do |student|
-      binding.pry
+      student.first_name + " " + student.last_name
     end
   end
 end
