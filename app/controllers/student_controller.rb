@@ -1,7 +1,8 @@
 class StudentController < ApplicationController
 
   def students
-    binding.pry
-    
+    Student.all.each do |student|
+      binding.pry
+    end
   end
 end

@@ -1012,3 +1012,4 @@ Completed 200 OK in 35854ms (Views: 292.0ms | ActiveRecord: 1.5ms)
   [1m[35m (0.1ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
 Started GET "/students" for 127.0.0.1 at 2019-02-05 00:55:28 +0000
 Processing by StudentController#students as HTML
+  [1m[36mStudent Load (0.2ms)[0m  [1m[34mSELECT "students".* FROM "students"[0m
